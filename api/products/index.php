@@ -9,7 +9,6 @@
     $items = new Employee($db);
     $stmt = $items->getEmployees();
     $itemCount = $stmt->rowCount();
-
     echo json_encode($itemCount);
     if($itemCount > 0){
         

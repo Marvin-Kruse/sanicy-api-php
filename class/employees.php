@@ -3,7 +3,7 @@
         // Connection
         private $conn;
         // Table
-        private $db_table = "Employee";
+        public $db_table;
         // Columns
         public $id;
         public $name;
